@@ -57,6 +57,7 @@ p {
 .content {
     display: flex;
     gap: 4rem;
+    flex-wrap: wrap;
 }
 
 .pokemon-logo {
@@ -137,4 +138,8 @@ footer {
     font-size: 18px;
     text-align: center;
     color: #e5e7eb;
+}
+
+.top-content {
+    flex: 1 1 0;
 }
