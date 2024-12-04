@@ -75,10 +75,12 @@ p {
     color: #1f2937;
     font-weight: 900;
     font-size: 36px;
+    text-align: center;
     margin: 3rem 0 4rem;
 }
 
 .one-body {
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -104,4 +106,35 @@ article {
     color: rgb(113, 116, 120);
     text-align: center;
     margin-bottom: 0.8rem;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 9rem 12rem 9rem;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 12rem 2rem;
+}
+
+.copyright {
+    font-size: 18px;
+    text-align: center;
+    color: #e5e7eb;
 }
